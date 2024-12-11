@@ -4,7 +4,7 @@
 # https://github.com/golang/term
 %global goipath		golang.org/x/term
 %global forgeurl	https://github.com/golang/term
-Version:		0.25.0
+Version:		0.27.0
 
 %gometa
 
