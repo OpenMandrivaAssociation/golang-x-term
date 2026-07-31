@@ -4,7 +4,7 @@
 # https://github.com/golang/term
 %global goipath		golang.org/x/term
 %global forgeurl	https://github.com/golang/term
-Version:		0.27.0
+Version:		0.32.0
 
 %gometa
 
@@ -43,7 +43,7 @@ building other packages which use import path with
 #-----------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n term-%{version}
+%autosetup -p1 -n term-0.32.0
 
 %build
 %gobuildroot
